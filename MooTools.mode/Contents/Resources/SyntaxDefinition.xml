@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE syntax SYSTEM "syntax.dtd">
+<syntax>
+
+    <head>
+        <name>MooTools</name> <!-- The definitions title -->
+    </head>
+
+    <states>
+    
+        <default id="Base" usesymbolsfrommode="JavaScript" useautocompletefrommode="JavaScript" scope="meta.default">
+            
+            <import mode="JavaScript" />
+            
+            <keywords id="Keywords" color="#881350" useforautocomplete="yes" casesensitive="no" scope="language.variable"> 
+                <string>window</string>
+                <string>document</string>
+                <string>$</string>
+                <string>$$</string>
+                <string>document.id</string>
+            </keywords>    
+                         
+        </default>
+
+    </states>
+
+</syntax>
